@@ -1,0 +1,145 @@
+{
+    "id": "865816be-9e4b-4a2b-870e-5c19907eef73",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f572fabb-c03e-4f9a-bc1e-15fce64d19c1",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4c41b8d3-db73-4283-999d-b997d39e4bf4",
+                    "label": "bet_base",
+                    "texture": {
+                        "key": "bet-base"
+                    },
+                    "scaleX": 4,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "2c4dce65-fa77-47cc-a1cf-136c6b2215d0",
+                    "label": "value_accelerator",
+                    "texture": {
+                        "key": "value-accelerator"
+                    },
+                    "x": -0.00001233816146850586,
+                    "scaleX": 1.4
+                },
+                {
+                    "type": "Text",
+                    "id": "14112c3c-4a3b-4fe0-bae2-cde897e11cea",
+                    "label": "maxValue_txt",
+                    "x": -394,
+                    "y": -45,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": " MIN \n 10 ",
+                    "align": "center",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Text",
+                    "id": "abd72409-5f17-4774-80fe-b336fe3d45c1",
+                    "label": "minValue_txt",
+                    "x": 394,
+                    "y": -45,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": " MAX \n 200 ",
+                    "align": "center",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Image",
+                    "id": "57c7fdf5-b62b-4b84-930a-fc28d4442b37",
+                    "label": "minus_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "minus-button"
+                    },
+                    "x": -394,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "3513be3d-f945-436b-8135-62412bb8d09e",
+                    "label": "plus_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "plus-button"
+                    },
+                    "x": 394,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "f5ad0958-7c98-4279-8871-e143fe061e47",
+                    "label": "countdown_base",
+                    "texture": {
+                        "key": "countdown-base"
+                    },
+                    "y": -148,
+                    "scaleX": 2
+                },
+                {
+                    "type": "Text",
+                    "id": "c094f86e-cefc-4542-b570-3e5bfa6b6b96",
+                    "label": "selected_stacks",
+                    "scope": "CLASS",
+                    "x": 1,
+                    "y": -143,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "STACKS: 10",
+                    "align": "center",
+                    "fontSize": "26px"
+                },
+                {
+                    "type": "Image",
+                    "id": "62d0a734-1e36-41c1-8605-d1604649b2c1",
+                    "label": "conform_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "conform-button"
+                    },
+                    "y": 66
+                },
+                {
+                    "type": "Container",
+                    "id": "d165d21c-99d8-4b14-85c2-990946e8653f",
+                    "label": "container_dragger",
+                    "x": -366,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "0168989d-bf29-48a8-941a-b969a7352780",
+                            "label": "value_dragger",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "value-dragger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

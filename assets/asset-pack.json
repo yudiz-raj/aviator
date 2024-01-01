@@ -1,0 +1,173 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/autoEject-base.png",
+                "type": "image",
+                "key": "autoEject-base"
+            },
+            {
+                "url": "src/prefabs/Bet.js",
+                "type": "script",
+                "key": "Bet"
+            },
+            {
+                "url": "assets/images/bet-base.png",
+                "type": "image",
+                "key": "bet-base"
+            },
+            {
+                "url": "assets/images/bet-state-base.png",
+                "type": "image",
+                "key": "bet-state-base"
+            },
+            {
+                "url": "assets/images/betAdd-button.png",
+                "type": "image",
+                "key": "betAdd-button"
+            },
+            {
+                "url": "src/prefabs/BetValueAdder.js",
+                "type": "script",
+                "key": "BetValueAdder"
+            },
+            {
+                "url": "assets/images/blue-base.png",
+                "type": "image",
+                "key": "blue-base"
+            },
+            {
+                "url": "assets/images/blue-side-map.png",
+                "type": "image",
+                "key": "blue-side-map"
+            },
+            {
+                "url": "assets/images/cancel-button.png",
+                "type": "image",
+                "key": "cancel-button"
+            },
+            {
+                "url": "assets/images/conform-button.png",
+                "type": "image",
+                "key": "conform-button"
+            },
+            {
+                "url": "assets/images/countdown-base.png",
+                "type": "image",
+                "key": "countdown-base"
+            },
+            {
+                "url": "assets/images/eject-txt-img.png",
+                "type": "image",
+                "key": "eject-txt-img"
+            },
+            {
+                "url": "assets/images/ejectAll-txt-img.png",
+                "type": "image",
+                "key": "ejectAll-txt-img"
+            },
+            {
+                "url": "assets/images/ejected-txt-img.png",
+                "type": "image",
+                "key": "ejected-txt-img"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/green-base.png",
+                "type": "image",
+                "key": "green-base"
+            },
+            {
+                "url": "assets/images/green-side-map.png",
+                "type": "image",
+                "key": "green-side-map"
+            },
+            {
+                "url": "src/scripts/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "src/prefabs/LockedBet.js",
+                "type": "script",
+                "key": "LockedBet"
+            },
+            {
+                "url": "assets/images/minus-button.png",
+                "type": "image",
+                "key": "minus-button"
+            },
+            {
+                "url": "assets/images/plane.png",
+                "type": "image",
+                "key": "plane"
+            },
+            {
+                "url": "assets/images/play-button.png",
+                "type": "image",
+                "key": "play-button"
+            },
+            {
+                "url": "assets/images/plus-button.png",
+                "type": "image",
+                "key": "plus-button"
+            },
+            {
+                "url": "assets/images/profile.jpg",
+                "type": "image",
+                "key": "profile"
+            },
+            {
+                "url": "src/prefabs/Profile.js",
+                "type": "script",
+                "key": "Profile"
+            },
+            {
+                "url": "assets/images/profile-base.png",
+                "type": "image",
+                "key": "profile-base"
+            },
+            {
+                "url": "assets/images/red-base.png",
+                "type": "image",
+                "key": "red-base"
+            },
+            {
+                "url": "src/scripts/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/images/stake-base.png",
+                "type": "image",
+                "key": "stake-base"
+            },
+            {
+                "url": "assets/images/value-accelerator.png",
+                "type": "image",
+                "key": "value-accelerator"
+            },
+            {
+                "url": "assets/images/value-dragger.png",
+                "type": "image",
+                "key": "value-dragger"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

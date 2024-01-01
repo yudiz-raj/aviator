@@ -1,0 +1,212 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "451ad4da-ed2c-4372-ba5d-2361090e6eca",
+            "label": "background",
+            "scope": "CLASS",
+            "texture": {
+                "key": "background"
+            },
+            "x": 540,
+            "y": 1920,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "originY": 1,
+            "width": 720,
+            "height": 2950
+        },
+        {
+            "type": "Image",
+            "id": "f4581cd2-c688-4074-93d5-8bc343ae7f0d",
+            "label": "plane",
+            "scope": "CLASS",
+            "texture": {
+                "key": "plane"
+            },
+            "x": 570,
+            "y": 1157
+        },
+        {
+            "type": "Image",
+            "id": "e75f8128-3878-43cf-ac29-feef19e15a6b",
+            "label": "play_button",
+            "scope": "CLASS",
+            "texture": {
+                "key": "play-button"
+            },
+            "x": 540,
+            "y": 960,
+            "scaleX": 5,
+            "scaleY": 5
+        },
+        {
+            "type": "Container",
+            "id": "f884b091-2057-4bce-bc86-33e005e8a2dc",
+            "label": "container_betsAdder",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "12acb212-c1f9-4097-b963-f9c735b1fa9d",
+                    "label": "bet_base",
+                    "texture": {
+                        "key": "bet-base"
+                    },
+                    "x": 540,
+                    "y": 1669,
+                    "scaleX": 5.3,
+                    "scaleY": 4,
+                    "alpha": 0.9,
+                    "alphaTopLeft": 0.9,
+                    "alphaTopRight": 0.9,
+                    "alphaBottomLeft": 0.9,
+                    "alphaBottomRight": 0.9
+                },
+                {
+                    "type": "Image",
+                    "id": "e4b4c59f-75a0-4a6d-baaa-ca69e530e381",
+                    "label": "betAdd_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "betAdd-button"
+                    },
+                    "x": 1027,
+                    "y": 1454
+                },
+                {
+                    "type": "Image",
+                    "id": "56a0d743-cfa9-443d-9d2c-74bac2bc0670",
+                    "label": "countdown_base",
+                    "texture": {
+                        "key": "countdown-base"
+                    },
+                    "x": 540,
+                    "y": 1379,
+                    "scaleX": 4,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Text",
+                    "id": "68708d95-6815-4445-9e58-fac086193acc",
+                    "label": "instruction_txt",
+                    "scope": "CLASS",
+                    "x": 540,
+                    "y": 1386,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": " PLACE BETS 3 ",
+                    "align": "center",
+                    "fontSize": "42px",
+                    "fontStyle": "bold italic"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "aaa0eca4-6dd6-42d5-9372-1d8a6a297e12",
+            "label": "container_bets",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "dc0140bd-ca6b-4e4b-a74f-d2627a5f7142",
+            "label": "container_valueSelecter",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "41e5c511-3bc4-4bb9-9ce4-1a1254179ca0",
+            "label": "container_lockedBets",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Text",
+            "id": "5562a857-8764-44a0-a895-ca55c1ba9a2f",
+            "label": "message_txt",
+            "scope": "CLASS",
+            "x": 540,
+            "y": 1760,
+            "originX": 0.5,
+            "originY": 0.5,
+            "visible": false,
+            "tintBottomLeft": "#84c0e2",
+            "tintBottomRight": "#84c0e2",
+            "tintFill": true,
+            "text": " BETS ARE \n NOT AVAILABLE ",
+            "align": "center",
+            "fontSize": "64px",
+            "fontStyle": "bold italic"
+        },
+        {
+            "type": "Container",
+            "id": "e70ed93f-91fb-4799-af44-3cc9924feab9",
+            "label": "container_sideMap",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1d1e2a0f-4b93-46fd-8512-426f5cae40cd",
+                    "label": "blue_side_map",
+                    "texture": {
+                        "key": "blue-side-map"
+                    },
+                    "x": 971,
+                    "y": 746,
+                    "scaleX": 2,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "94d509e7-a198-4918-9376-6870460bd672",
+                    "label": "green_side_map",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "green-side-map"
+                    },
+                    "x": 863,
+                    "y": 1359,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "originX": 0,
+                    "originY": 1,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "d4d35e70-7b5f-4daa-a624-e75f418120db",
+                    "label": "sideMap_plane",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "plane"
+                    },
+                    "x": 988,
+                    "y": 1349,
+                    "scaleX": 0.1,
+                    "scaleY": 0.1
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "48207a65-f29c-40e1-b0f7-e2055007ad85",
+            "label": "container_profile",
+            "scope": "CLASS"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

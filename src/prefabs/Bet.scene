@@ -1,0 +1,119 @@
+{
+    "id": "079f3ecf-8c74-4aaf-abc0-4eef0382083c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a173cf8e-23cd-4be2-9b43-5591d7f4550d",
+            "label": "container_1",
+            "y": -1,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6d43e130-c9fe-4bb2-ba88-863cfe99294e",
+                    "label": "bet_state_base",
+                    "texture": {
+                        "key": "bet-state-base"
+                    },
+                    "scaleX": 1.5,
+                    "scaleY": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "453dee94-6863-4afe-8f4c-f70c8467b732",
+                    "label": "cancel_button",
+                    "texture": {
+                        "key": "cancel-button"
+                    },
+                    "x": 139,
+                    "y": -166,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "a562c187-98c8-4d75-a168-2a0ab404c3cd",
+                    "label": "stake_base",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stake-base"
+                    },
+                    "y": -72,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "7c741175-396a-4719-b6c5-4be4e0e4dad9",
+                    "label": "stake_txt",
+                    "y": -128,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "STAKE",
+                    "align": "center",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Text",
+                    "id": "7d508541-bc7a-46be-bda0-08a3e55ef732",
+                    "label": "stake_value",
+                    "scope": "CLASS",
+                    "y": -72,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "10",
+                    "align": "center",
+                    "fontSize": "36px"
+                },
+                {
+                    "type": "Image",
+                    "id": "08e1b417-6670-4a40-9427-ed1a59075e52",
+                    "label": "autoEject_base",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "autoEject-base"
+                    },
+                    "y": 100,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Text",
+                    "id": "a5ced371-0100-4596-b94d-aef5aa3a348b",
+                    "label": "autoEject_txt",
+                    "y": 44,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "AUTO EJECT",
+                    "align": "center",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Text",
+                    "id": "a801d033-119a-4e65-ab41-0e2e2c96ac3c",
+                    "label": "autoEject_value",
+                    "scope": "CLASS",
+                    "y": 100,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "align": "center",
+                    "fontSize": "36px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

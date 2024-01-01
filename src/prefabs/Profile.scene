@@ -1,0 +1,71 @@
+{
+    "id": "59fb75b1-8365-41dc-9332-a83c07d8c42d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d0479154-bf49-4595-a799-1dc7996cdf92",
+            "label": "container_1",
+            "y": -1,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6f365e53-1b83-4c98-b1ef-57fae47a1b58",
+                    "label": "profile_image",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "profile"
+                    },
+                    "scaleX": 0.45,
+                    "scaleY": 0.45
+                },
+                {
+                    "type": "Image",
+                    "id": "41314ba0-0f8e-4edc-a6c8-fa7ff32e62ec",
+                    "label": "profile_base",
+                    "texture": {
+                        "key": "profile-base"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "e3cbfa59-6740-4875-a9b3-def4dbbfda6d",
+                    "label": "profile_name",
+                    "scope": "CLASS",
+                    "x": 125,
+                    "y": -21,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "otiyugjf",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Text",
+                    "id": "ffd32e73-d885-4f45-b715-3cab6f4e4fb0",
+                    "label": "balance",
+                    "scope": "CLASS",
+                    "x": 125,
+                    "y": 21,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "9000",
+                    "fontSize": "32px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

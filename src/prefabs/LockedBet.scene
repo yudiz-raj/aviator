@@ -1,0 +1,72 @@
+{
+    "id": "31bb3754-09b4-4943-bcf1-581442df2afc",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "dcc13709-7f91-4a72-9d23-5784e3e3b680",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "65413973-beee-48f3-8705-8da21a9421e4",
+                    "label": "blue_base",
+                    "texture": {
+                        "key": "blue-base"
+                    },
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                },
+                {
+                    "type": "Image",
+                    "id": "41faa020-d67b-4640-84da-054663e08e43",
+                    "label": "eject_base",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "red-base"
+                    },
+                    "y": -59
+                },
+                {
+                    "type": "Image",
+                    "id": "e4cbe4ac-7b0c-4d42-afd0-1dfac706f0ee",
+                    "label": "eject_txt_img",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "eject-txt-img"
+                    },
+                    "y": -59
+                },
+                {
+                    "type": "Text",
+                    "id": "32cc1891-2ddc-433e-a5c2-2a3aa1c693fb",
+                    "label": "ejectValue_txt",
+                    "scope": "CLASS",
+                    "y": 54,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "tintBottomLeft": "#88cdf0",
+                    "tintBottomRight": "#88cdf0",
+                    "tintFill": true,
+                    "text": " 10 ",
+                    "fontSize": "48px",
+                    "fontStyle": "bold italic"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
